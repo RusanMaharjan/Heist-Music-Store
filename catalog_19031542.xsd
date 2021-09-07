@@ -1,0 +1,104 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="music-store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="header-logo"/>
+              <xs:element type="xs:string" name="heading"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="store-details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="store-name"/>
+              <xs:element type="xs:string" name="address"/>
+              <xs:element type="xs:string" name="telephone-number"/>
+              <xs:element type="xs:anyURI" name="website"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="header-title"/>
+        <xs:element name="song-details" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="details">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element name="description">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="desOf" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="song_name">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="sLength" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="genre">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="name_of_director"/>
+                    <xs:element type="xs:string" name="producer"/>
+                    <xs:element type="xs:string" name="writer"/>
+                    <xs:element type="xs:string" name="main_producer"/>
+                    <xs:element type="xs:string" name="co_producer"/>
+                    <xs:element type="xs:string" name="main_writer"/>
+                    <xs:element type="xs:string" name="co_writer"/>
+                    <xs:element name="Singer_name">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="singerID" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Singer_age"/>
+                    <xs:element type="xs:string" name="Singer_gender"/>
+                    <xs:element type="xs:string" name="Singer_country"/>
+                    <xs:element type="xs:string" name="band"/>
+                    <xs:element type="xs:string" name="release_year"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="image_1" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_2" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_3" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_4" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_5" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_6" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_7" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_8" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_9" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_10" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_11" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_12" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_13" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_14" minOccurs="0"/>
+              <xs:element type="xs:string" name="image_15" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="sID" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

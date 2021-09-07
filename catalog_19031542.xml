@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Css External Link -->
+<?xml-stylesheet type="text/css" href="catalog_19031542.css"?>
+
+<!-- DTD External Link -->
+<!DOCTYPE music-store SYSTEM "catalog_19031542.dtd">
+
+
+<music-store xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="catalog_19031542.xsd">
+   
+<!-- Header -->
+    <header>
+        <header-logo/>
+        <heading>Heist Music Store</heading>
+    </header>
+    
+
+<!-- Store-details -->
+    <store-details>
+        <store-name>Heist Music Store</store-name>
+        <address>Harisiddhi, Lalitpur</address>
+        <telephone-number>01-5250417</telephone-number>        
+        <website>www.HeistMusicStore.com.np</website>     
+    </store-details>
+
+
+<!-- header title -->
+    <header-title>Songs</header-title>
+
+<!-- Song details starts from here -->
+<!-- What it feels like for a girl -->
+    <song-details sID="01">
+        <details>
+            <title>What It Feels Like for a Girl</title>
+            <description desOf="What It Feels Like for a Girl">
+                <![CDATA[
+                    "What It Feels Like for a Girl" is a song recorded by American Singer Madonna for her eighth studio album Music. It was released as the third and final single from the album by Maveric Records.
+                ]]>
+            </description>
+            <song_name sLength="4:35">Name: What It Feels Like For a Girl</song_name>
+            <genre type="Electronic">Genre: Pop</genre>
+            <name_of_director>Director: Sigsworth</name_of_director>
+            <producer>Producer: Madonna</producer>
+            <writer>Writer: Madonna</writer>
+            <Singer_name singerID="001">Signer Name: Madonna</Singer_name>
+            <Singer_age>Singer Age: 62</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: April 16, 2001</release_year>
+        </details>
+        
+        <!-- Image 1 for what it feels like for a girl -->
+        <image_1/>
+    </song-details>
+
+   <!-- Beliver -->
+    <song-details sID="02">
+        <details>
+            <title>Believer</title>
+            <description desOf="Believer">
+                <![CDATA[
+                    "Believer" is a song by American Pop Rock band Imagine Dragons. The song was released on February 1, 2017 through Interscope Records and Kidinakorner as the lead single from the band's third studio album.
+                ]]>
+            </description>
+            <song_name sLength="3:23">Name: Believer</song_name>
+            <genre type="Arena rock">Genre: Pop Rock</genre>
+            <name_of_director>Director: Mattman and Robin</name_of_director>
+            <main_producer>Main-Producer: Mattman</main_producer>
+            <co_producer>Co-Producer: Robin</co_producer>
+            <main_writer>Main-Writer: Dan Reynolds, Wayne Sermon</main_writer>
+            <co_writer>Co-Writer: Ben McKee, Daniel Platzman</co_writer>
+            <Singer_name singerID="002">Singer Name: Dan Reynolds</Singer_name>
+            <Singer_age>Singer Age: 33</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <band>Band Name: Imagine Dragons</band>
+            <release_year>Release Year: February 1, 2017</release_year>
+        </details>
+
+    <!-- Image for Believer -->
+        <image_2/>
+    </song-details>
+
+    <!-- Memories -->
+    <song-details sID="03">
+        <details>
+            <title>Memories</title>
+            <description desOf="Memories">
+                <![CDATA[
+                    "Memories" is a song by American pop band Maroon 5, released through 222 on September 20, 2019. Lyrically, the song pays homepage to the memories of a lobed one who has since passed.
+                ]]>
+            </description>
+            <song_name sLength="3:05">Name: Memories</song_name>
+            <genre type="pop">Genre: Pop</genre>
+            <name_of_director>Director: Vincent Ford</name_of_director>
+            <producer>Producer: Jacod Kasher Hindlin</producer>
+            <writer>Writer: Adam Levine, Stefan Johnson, Jordan Johnson</writer>
+            <Singer_name singerID="003">Singer Name: Adam Levine</Singer_name>
+            <Singer_age>Singer Age: 42</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <band>Band Name: Maroon 5</band>
+            <release_year>Release Year: September 20, 2019</release_year>
+        </details>
+
+    <!-- Image for Memories -->
+        <image_3/>
+    </song-details>
+
+    <!-- Levitating -->
+    <song-details sID="04">
+        <details>
+            <title>Levitating</title>
+            <description desOf="Levitating">
+                <![CDATA[
+                    "Levitating" is a song by English singer Dua Lipa from her second studio album, Future Nostalgia (2020). The song was written by Lipa, Clarence Coffee Jr., Sarah Hudson and Stephen Kozmeniuk, with the image of Mike Myers in Austin Powers in mind. 
+                ]]>
+            </description>
+            <song_name sLength="3:41">Name: Levitating</song_name>
+            <genre type="Electro-disco">Genre: pop</genre>
+            <name_of_director>Director: Stephen Kozmeniuk</name_of_director>
+            <producer>Producer: Stuart Price</producer>
+            <writer>Writer: Clarence Coffee Jr, Sarah Hudson</writer>
+            <Singer_name singerID="004">Singer Name: Dua Lipa</Singer_name>
+            <Singer_age>Singer Age: 25</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: England</Singer_country>
+            <release_year>Release Year: October 1, 2020</release_year>
+        </details>
+        
+    <!-- Image for Levitating -->
+        <image_4/>
+    </song-details>
+
+    <!-- Break My Heart -->
+    <song-details sID="05">
+        <details>
+            <title>Break My Heart</title>
+            <description desOf="Break My Heart">
+                <![CDATA[
+                    "Break My Heart" is a song by English singer Dua Lipa from her second studio album, Future Nostalgia (2020). The song was written by Lipa, Ali Tamposi, Stefan Johnson, Jordan K. Johnson, and Andrew Watt, with the latter of the five handling production alongside the Monsters & Strangerz.
+                ]]>
+            </description>
+            <song_name sLength="3:48">Name: Break My Heart</song_name>
+            <genre type="Dance-Pop">Genre: Disco</genre>
+            <name_of_director>Director: Andrew Wortman</name_of_director>
+            <main_producer>Main-Producer: Andrew Wortman</main_producer>
+            <co_producer>Co-Producer: Andrew Watt</co_producer>
+            <main_writer>Main-Writer: Stefan Johnson</main_writer>
+            <co_writer>Co-Writer: Michael Hutchence</co_writer>
+            <Singer_name singerID="005">Singer Name: Dua Lipa</Singer_name>
+            <Singer_age>Singer Age: 25</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: England</Singer_country>
+            <release_year>Release Year: March 25, 2020</release_year>
+        </details>
+
+    <!-- Image for Break My Heart -->
+        <image_5/>
+    </song-details>
+
+    <!-- Friends -->
+    <song-details sID="06">
+        <details>
+            <title>Friends</title>
+            <description desOf="Friends">
+                <![CDATA[
+                    "Friends" (stylized in all caps) is a song by American record producer Marshmello and English singer Anne-Marie. It was written and produced by Marshmello, with additional writing from Anne-Marie, Eden Anderson, Richard Boardman, Jasmine Thompson, Nat Dunn, Sarah Blanchard and Pablo Bowman.
+                ]]>
+            </description>
+            <song_name sLength="3:26">Name: Friends</song_name>
+            <genre type="EDM">Genre: Pop</genre>
+            <name_of_director>Director: Marshmello</name_of_director>
+            <producer>Producer: Marshmello</producer>
+            <writer>Writer: Eden Andreson, Natalie Dunn</writer>
+            <Singer_name singerID="006">Singer Name: Anne Marie</Singer_name>
+            <Singer_age>Singer Age: 30</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: England</Singer_country>
+            <release_year>Release Year: February 9, 2018</release_year>
+        </details>
+
+    <!-- Image for Friends -->
+        <image_6/>
+    </song-details>
+
+    <!-- At my worst -->
+    <song-details sID="07">
+        <details>
+            <title>At My Worst</title>
+            <description desOf="At My Worst">
+                <![CDATA[
+                    Pink Sweat’s “At My Worst” is one of his latest hits, and it’s already racked up more than 34 million Spotify plays to date. The song, which is produced by John Hill and Pink Sweat$, appears on his 2020 EP, The Prelude. On the track, the Philly native sings about finding a partner who will stick with him despite his flaws.
+                ]]>
+            </description>
+            <song_name sLength="3:12">Name: At my worst</song_name>
+            <genre type="pop">Genre: soul pop</genre>
+            <name_of_director>Director: David Bowden</name_of_director>
+            <producer>Producer: David Bowden</producer>
+            <writer>Writer: David Bowden</writer>
+            <Singer_name singerID="007">Singer Name: David Bowden</Singer_name>
+            <Singer_age>Singer Age: 29</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <band>Band Name: Pink Sweat's</band>
+            <release_year>Release Year: November 12, 2020</release_year>
+        </details>
+
+    <!-- Image for At my worst -->
+        <image_7/>
+    </song-details>
+
+    <!-- I'm a Mess -->
+    <song-details sID="08">
+        <details>
+            <title>I'm a Mess</title>
+            <description desOf="I'm a Mess">
+                <![CDATA[
+                    "I'm a Mess" is a song recorded by American singer Bebe Rexha for her debut studio album, Expectations (2018). It was released as the first and only single from the album on June 15, 2018, following an early radio release in the United States.
+                ]]>
+            </description>
+            <song_name sLength="3:16">Name: I'm a Mess</song_name>
+            <genre type="Pop">Genre: Pop Music</genre>
+            <name_of_director>Director: Shelly Peiken</name_of_director>
+            <main_producer>Main-Producer: Jussifer</main_producer>
+            <co_producer>Co-Producer: Devon Corey</co_producer>
+            <writer>Writer: Justin Tranter</writer>
+            <Singer_name singerID="008">Singer Name: Bebe Rexha</Singer_name>
+            <Singer_age>Singer Age: 31</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: United State</Singer_country>
+            <release_year>Release Year: June 15, 2018</release_year>
+        </details>
+
+    <!-- Image for I'm a Mess -->
+        <image_8/>
+    </song-details>
+
+    <!-- Psycho -->
+    <song-details sID="09">
+        <details>
+            <title>Psycho</title>
+            <description desOf="Psycho">
+                <![CDATA[
+                    "Psycho" is a song recorded by American rapper and singer Post Malone, featuring vocals from American singer Ty Dolla Sign. It was released through Republic Records on February 23, 2018, as the third single from Malone's second studio album.
+                ]]>
+            </description>
+            <song_name sLength="3:57">Name: Psycho</song_name>
+            <genre type="Rock">Genre: Rock</genre>
+            <name_of_director>Director: Tyrone Griffin</name_of_director>
+            <producer>Producer: Louis Bell, Post Malone</producer>
+            <writer>Writer: Austin Post, Louis Bell</writer>
+            <Singer_name singerID="009">Singer Name: Post Malone</Singer_name>
+            <Singer_age>Singer Age: 25</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: February 23, 2018</release_year>
+        </details>
+
+    <!-- Image for Psycho -->
+        <image_9/>
+    </song-details>
+
+    <!-- Lonely -->
+    <song-details sID="10">
+        <details>
+            <title>Lonely</title>
+            <description desOf="Lonely">
+                <![CDATA[
+                    "Lonely" (also known as "Mr. Lonely") is a song by Senegalese-American singer and rapper Akon; it appears on his debut album, Trouble. 
+                ]]>
+            </description>
+            <song_name sLength="4:25">Name: Lonely</song_name>
+            <genre type="pop">Genre: Jazz</genre>
+            <name_of_director>Director: Bobby Vinton</name_of_director>
+            <producer>Producer: Akon</producer>
+            <writer>Writer: Bobby Vinton, Gene Allan</writer>
+            <Singer_name singerID="010">Singer Name: Akon</Singer_name>
+            <Singer_age>Singer Age: 48</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: April 19, 2005</release_year>
+        </details>
+
+    <!-- Image for Lonely -->
+        <image_10/>
+    </song-details>
+
+    <!-- Closer -->
+    <song-details sID="11">
+        <details>
+            <title>Closer</title>
+            <description desOf="Closer">
+                <![CDATA[
+                    "Closer" is a song by American DJ duo the Chainsmokers featuring American singer Halsey. Andrew Taggart (one half of the Chainsmokers) also provides his vocals in the song. It was released on July 29, 2016, through Disruptor Records and Columbia Records.
+                ]]>
+            </description>
+            <song_name sLength="4:07">Name: Closer</song_name>
+            <genre type="Future bass">Genre: Pop</genre>
+            <name_of_director>Director: Joe King</name_of_director>
+            <producer>Producer: Ashley Frangipane</producer>
+            <writer>Writer: Shaun Frank, Isaac Slade</writer>
+            <Singer_name singerID="011">Singer Name: Chainsmoker and Halsey</Singer_name>
+            <Singer_age>Singer Age: 34 and 26</Singer_age>
+            <Singer_gender>Gender: Male and Female</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: July 29, 2016</release_year>
+        </details>
+
+    <!-- Image for Closer -->
+        <image_11/>
+    </song-details>
+
+    <!-- Dance Monkey -->
+    <song-details sID="12">
+        <details>
+            <title>Dance Monkey</title>
+            <description desOf="Dance Monkey">
+                <![CDATA[
+                    "Dance Monkey" is a song by Australian singer Tones and I, released on 10 May 2019 as the second single (first in the US) from Tones and I's debut EP The Kids Are Coming. The song was produced and mixed by Konstantin Kersting.
+                ]]>
+            </description>
+            <song_name sLength="3:29">Name: Dance Monkey</song_name>
+            <genre type="Electric Pop">Genre: Pop</genre>
+            <name_of_director>Director: Toni Watson</name_of_director>
+            <producer>Producer: Konstanitin Kersting</producer>
+            <writer>Writer: Toni Watson</writer>
+            <Singer_name singerID="012">Singer Name: Toni Watson</Singer_name>
+            <Singer_age>Singer Age: 22</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: Australia</Singer_country>
+            <release_year>Release Year: 10 May, 2019</release_year>
+        </details>
+
+    <!-- Image for Dance Monkey -->
+        <image_12/>
+    </song-details>
+
+    <!-- Sweet But Psycho -->
+    <song-details sID="13">
+        <details>
+            <title>Sweet But Psycho</title>
+            <description desOf="Sweet but Psycho">
+                <![CDATA[
+                    "Sweet but Psycho" is a song by American singer Ava Max, released on August 17, 2018, through Atlantic Records as the first single from her debut studio album, Heaven & Hell (2020). The song was written by Max, Madison Love, Tix, Cook Classics, and the producer Cirkut. It is a pop, dance-pop, electropop, and synth-pop song with lyrics about the perception of a woman.
+                ]]>
+            </description>
+            <song_name sLength="3:08">Name: Sweet but Psycho</song_name>
+            <genre type="Electric pop">Genre: Jazz</genre>
+            <name_of_director>Director: Andreas Andresen</name_of_director>
+            <producer>Producer: Cirkut</producer>
+            <writer>Writer: William Lobban-Bean</writer>
+            <Singer_name singerID="013">Singer Name: Ava Max</Singer_name>
+            <Singer_age>Singer Age: 27</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: August 17, 2018</release_year>
+        </details>
+
+    <!-- Image for Sweet But Psycho -->
+        <image_13/>
+    </song-details>
+
+    <!-- Rap God -->
+    <song-details sID="14">
+        <details>
+            <title>Rap God</title>
+            <description desOf="Rap God">
+                <![CDATA[
+                    "Rap God" is a song by American rapper Eminem. The song premiered via YouTube on October 14, 2013, and was released in the United States on October 15, 2013, as the third single from Eminem's eighth studio album, The Marshall Mathers LP 2 (2013).
+                ]]>
+            </description>
+            <song_name sLength="6:07">Name: Rap God</song_name>
+            <genre type="rap">Genre: Pop</genre>
+            <name_of_director>Director: Narsgakk Natgers</name_of_director>
+            <producer>Producer: Filthy.co</producer>
+            <main_writer>Main-Writer: Stephen Hacker</main_writer>
+            <co_writer>Co-Writer: Douglas Davis</co_writer>
+            <Singer_name singerID="014">Singer Name: Eminem</Singer_name>
+            <Singer_age>Singer Age: 48</Singer_age>
+            <Singer_gender>Gender: Male</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: October 15, 2013</release_year>
+        </details>
+
+    <!-- Image of Rap God -->
+        <image_14/>
+    </song-details>
+
+    <!-- Pretty Girl -->
+    <song-details sID="15">
+        <details>
+            <title>Pretty Girl</title>
+            <description desOf="Pretty Girl">
+                <![CDATA[
+                    "Pretty Girl" is a song by American singer and songwriter Maggie Lindemann. It is her first major-label single, and was released on September 30, 2016, through 300 Entertainment. The song was written by Lindemann, Sasha Sloan, and Sean Myer, with the production being handled by Jayson DeZuzio.
+                ]]>
+            </description>
+            <song_name sLength="3:20">Name: Pretty Girl</song_name>
+            <genre type="Pop">Genre: Cheat Codes X Cade remix</genre>
+            <name_of_director>Director: Sasha Sloan</name_of_director>
+            <producer>Producer: Jayson DeZuzio</producer>
+            <writer>Writer: Maggie Linderman</writer>
+            <Singer_name singerID="015">Singer Name: Maggie Linderman</Singer_name>
+            <Singer_age>Singer Age: 22</Singer_age>
+            <Singer_gender>Gender: Female</Singer_gender>
+            <Singer_country>Country: United States</Singer_country>
+            <release_year>Release Year: September 30, 2016</release_year>
+        </details>
+
+    <!-- Image for Pretty Girl -->
+        <image_15/>
+    </song-details>
+</music-store>

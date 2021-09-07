@@ -1,0 +1,67 @@
+<!ELEMENT music-store (header,store-details,header-title,song-details+)>
+
+<!ATTLIST music-store
+  xmlns:xs CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xs:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT header (header-logo,heading)>
+<!ELEMENT store-details (store-name,address,telephone-number,website)>
+<!ELEMENT header-title (#PCDATA)>
+<!ELEMENT song-details (details,(image_1?,image_2?,image_3?,image_4?,image_5?,image_6?,image_7?,image_8?,image_9?,image_10?,
+                        image_11?,image_12?,image_13?,image_14?,image_15?))>
+
+<!ATTLIST song-details sID CDATA #REQUIRED>
+
+<!ELEMENT header-logo EMPTY>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT store-name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephone-number (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT details (title,description,song_name,genre,name_of_director,producer*,main_producer*,co_producer*,
+                    writer*,main_writer*,co_writer*,Singer_name,Singer_age,Singer_gender,Singer_country,band*,release_year)>
+
+<!ELEMENT image_1 EMPTY>
+<!ELEMENT image_2 EMPTY>
+<!ELEMENT image_3 EMPTY>
+<!ELEMENT image_4 EMPTY>
+<!ELEMENT image_5 EMPTY>
+<!ELEMENT image_6 EMPTY>
+<!ELEMENT image_7 EMPTY>
+<!ELEMENT image_8 EMPTY>
+<!ELEMENT image_9 EMPTY>
+<!ELEMENT image_10 EMPTY>
+<!ELEMENT image_11 EMPTY>
+<!ELEMENT image_12 EMPTY>
+<!ELEMENT image_13 EMPTY>
+<!ELEMENT image_14 EMPTY>
+<!ELEMENT image_15 EMPTY>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description desOf CDATA #REQUIRED>
+
+<!ELEMENT song_name (#PCDATA)>
+<!ATTLIST song_name sLength NMTOKEN #REQUIRED>
+
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre type CDATA #REQUIRED>
+
+<!ELEMENT name_of_director (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT main_producer (#PCDATA)>
+<!ELEMENT co_producer (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT main_writer (#PCDATA)>
+<!ELEMENT co_writer (#PCDATA)>
+
+<!ELEMENT Singer_name (#PCDATA)>
+<!ATTLIST Singer_name singerID CDATA #REQUIRED>
+
+<!ELEMENT Singer_age (#PCDATA)>
+<!ELEMENT Singer_gender (#PCDATA)>
+<!ELEMENT Singer_country (#PCDATA)>
+<!ELEMENT band (#PCDATA)>
+<!ELEMENT release_year (#PCDATA)>
